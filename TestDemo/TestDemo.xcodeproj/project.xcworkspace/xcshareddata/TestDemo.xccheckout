@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C74465E8-BDC2-4020-ABE6-6DE4F49DF1CB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TestDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EF78381C-6B43-4612-B0D6-1C431BE5FE37</key>
+		<string>https://github.com/zzycami/ios-demo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TestDemo/TestDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EF78381C-6B43-4612-B0D6-1C431BE5FE37</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zzycami/ios-demo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EF78381C-6B43-4612-B0D6-1C431BE5FE37</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EF78381C-6B43-4612-B0D6-1C431BE5FE37</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios-demo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
