@@ -8,16 +8,18 @@
 
 #import <Foundation/Foundation.h>
 #import "TimeKit.h"
+#import "Weather.h"
 
 int main(int argc, const char * argv[])
 {
     @autoreleasepool {
-        TimeKit *timeKit = [[TimeKit alloc] init];
-        NSLog(@"%@", [timeKit getStartDateOfToday]);
-        NSLog(@"%@", [timeKit getEndDateOfToday]);
-        
-        //NSDate *confromTimesp = [NSDate dateWithTimeIntervalSince1970:1363948516];
-        //NSLog(@"1363948516  = %@",confromTimesp);
+        Weather *weather = [[Weather alloc] init];
+        NSString *cityName = [weather getCurrentCityName];
+        NSLog(@"%@", cityName);
+        NSString *cityCode = [weather getCityIdByName:cityName];
+        NSLog(@"%@", cityCode);
+        NSDictionary *dic = [weather getWeather:cityCode];
+        NSLog(@"%@", dic);
     }
     return 0;
 }

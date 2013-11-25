@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		511A883C184088C0009A9F7C /* Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = 511A883B184088C0009A9F7C /* Weather.m */; };
+		511A883F184088F9009A9F7C /* HttpKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 511A883E184088F9009A9F7C /* HttpKit.m */; };
 		512376D918374AE200374D3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512376D818374AE200374D3E /* Foundation.framework */; };
 		512376DC18374AE200374D3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 512376DB18374AE200374D3E /* main.m */; };
 		512376E018374AE200374D3E /* TestDemo.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 512376DF18374AE200374D3E /* TestDemo.1 */; };
@@ -27,6 +29,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		511A883A184088C0009A9F7C /* Weather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weather.h; sourceTree = "<group>"; };
+		511A883B184088C0009A9F7C /* Weather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weather.m; sourceTree = "<group>"; };
+		511A883D184088F9009A9F7C /* HttpKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpKit.h; sourceTree = "<group>"; };
+		511A883E184088F9009A9F7C /* HttpKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpKit.m; sourceTree = "<group>"; };
+		511A8840184090B2009A9F7C /* city.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = city.txt; sourceTree = "<group>"; };
 		512376D518374AE200374D3E /* TestDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		512376D818374AE200374D3E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		512376DB18374AE200374D3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -34,6 +41,7 @@
 		512376DF18374AE200374D3E /* TestDemo.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TestDemo.1; sourceTree = "<group>"; };
 		512376E6183758BA00374D3E /* TimeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeKit.h; sourceTree = "<group>"; };
 		512376E7183758BA00374D3E /* TimeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeKit.m; sourceTree = "<group>"; };
+		51470CDF1842E7BF00FB83F7 /* Cities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cities.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,11 +84,16 @@
 		512376DA18374AE200374D3E /* TestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				511A883D184088F9009A9F7C /* HttpKit.h */,
+				511A883E184088F9009A9F7C /* HttpKit.m */,
 				512376DB18374AE200374D3E /* main.m */,
 				512376DF18374AE200374D3E /* TestDemo.1 */,
 				512376DD18374AE200374D3E /* Supporting Files */,
 				512376E6183758BA00374D3E /* TimeKit.h */,
 				512376E7183758BA00374D3E /* TimeKit.m */,
+				511A883A184088C0009A9F7C /* Weather.h */,
+				511A883B184088C0009A9F7C /* Weather.m */,
+				51470CDF1842E7BF00FB83F7 /* Cities.h */,
 			);
 			path = TestDemo;
 			sourceTree = "<group>";
@@ -88,6 +101,7 @@
 		512376DD18374AE200374D3E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				511A8840184090B2009A9F7C /* city.txt */,
 				512376DE18374AE200374D3E /* TestDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -144,6 +158,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				511A883F184088F9009A9F7C /* HttpKit.m in Sources */,
+				511A883C184088C0009A9F7C /* Weather.m in Sources */,
 				512376DC18374AE200374D3E /* main.m in Sources */,
 				512376E8183758BA00374D3E /* TimeKit.m in Sources */,
 			);
@@ -257,6 +273,7 @@
 				512376E518374AE200374D3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
